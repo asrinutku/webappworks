@@ -1,0 +1,33 @@
+body{
+	background-color: #d0cec8;
+}
+
+.container{
+	max-width: 1000px;
+}
+
+input[type-text],input[type=text]:focus{
+	color: black;
+	border: none;
+	background-color: #E3AFBC;
+}
+
+.todos li{
+	background-color: #9A1750;
+}
+
+.delete{
+	cursor: pointer;
+}
+
+.filtered{
+	display: none !important;
+}
+
+.count-notif{
+	
+	position: absolute;
+	right: 100px;
+	
+  }
+  
