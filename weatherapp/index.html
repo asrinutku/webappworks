@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatibe" content="ie=edge">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>WeatherApp</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-center my-4" style="color: #EDF5E1;">Weather Forecast</h1>
+        <form class="konum-degistir my-4 text-center text-muted">
+            <label class="h5 text-center mb-4" for="sehir" style="color: #EDF5E1;">Location</label>
+            <input type="text" name="city" class="form-control p-4">
+        </form>
+
+        <div class="card shadow-lg rounded d-none" style="background-color: #313C51;">
+            <img src="" class="time card-img-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+
+            <div class="text-mute text-uppercase text-center info">
+                <h1 class="my-3">City Name</h1>
+                <div class="my-3">Weather Condition</div>
+                <div class="display-4 my-4">
+                    <span>Temperature</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script src="script/prediction.js"></script>
+	<script src="script/app.js"></script>
+</body>
+</html>
