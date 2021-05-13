@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <a href="/">Task Management</a>
+        <ul>
+
+            <% if(user) { %>
+            <li>Welcome , <%= user.email.split('@')[0]  %> </li>
+            <li><a href="/logout">Exit</a></li>
+
+            <% }else { %>
+                
+            <li><a href="/login">LOGIN</a></li>
+            <li><a href="/signup">SIGN UP</a></li>
+            
+            
+            <% } %>
+        </ul>
+    </nav>
+    
+</body>
