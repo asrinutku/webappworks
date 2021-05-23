@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+:root{
+    --primary: #c44569;
+    --secondary: gray;
+    --back: wheat;
+    --error: red;
+}
+
+body{
+    font-family: "Sofia";
+    color : var(--secondary);
+    background-color: var(--back);
+}
+
+.App{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.title h1{
+    color: var(--primary);
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.title h2,p{
+    text-align: center;
+}
+
+title h2{
+    margin-top: 60px;
+    font-size: 2.6rem;
+}
+
+.progress-bar{
+    height: 5px;
+    background: var(--primary);
+    margin-top: 20px;
+}
+
+.img-grid{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.img-wrap{
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 150%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: black;
+}
+
+.backdrop img{
+    display: block;
+    max-width: 60%;
+    max-height: 80%;
+    margin: 60px auto;
+    border: 3px solid beige;
+}
+
