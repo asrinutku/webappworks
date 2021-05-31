@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@if (Session["user"] != null)
+{
+    <h2>Hosgeldiniz...</h2>
+    @Html.ActionLink("çıkış yap", "Logout")
+
+}
+else{
+<h2>Index Sayfası</h2>
+
+}
