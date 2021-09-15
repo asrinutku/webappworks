@@ -1,0 +1,43 @@
+.signinContainer {
+  width: 300px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: wheat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  color: #01fe87;
+  font-weight: bold;
+}
+
+.btnsignin {
+  border: none;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  background-color: #01fe87;
+}
+
+.fail {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+}
+
+.signincancel {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
